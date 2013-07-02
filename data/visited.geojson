@@ -1,0 +1,597 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.9688024520874,
+                    -31.38702238295994,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Uruguay 533",
+                "description": "This is where we lived during our time in Salto\n\nType: Abroad",
+                "string": "Abroad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0753083229064941,
+                    50.801134185257695,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "40 Clive Road",
+                "description": "Shared house I lived in in my first year of University\n\nType: Uni",
+                "string": "Uni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0888266563415527,
+                    50.791070432845814,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "26 Belmont Street",
+                "description": "Second house whilst at Uni\n\nType: Uni",
+                "string": "Uni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0908222198486328,
+                    50.79633993198221,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bateson Hall",
+                "description": "Here for my first week at Uni\n\nType: Uni",
+                "string": "Uni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2229156494140625,
+                    52.93353428617325,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wollaton Road",
+                "description": "Lived here until going to Uni\n\nType: Home",
+                "string": "Home"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.394149780273438,
+                    35.94591013302427,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Malta",
+                "description": "I think this is where we stayed\n\nYear: 2011",
+                "string": "2011"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.05657958984375,
+                    -36.701457527917896,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chillán",
+                "description": "Youth camp was here\n\nYear: 2004",
+                "string": "2004"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -55.54018020629883,
+                    -30.888672773535315,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Livramento",
+                "description": "Had a great time here - was where we met Abimael\n\nYear: 2004",
+                "string": "2004"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -54.43631172180176,
+                    -25.695059938009106,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Iguazu Falls",
+                "description": "Fantastic waterfalls\n\nYear: 2004",
+                "string": "2004"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.377504348754883,
+                    51.9090140313249,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "School German Exchange",
+                "description": "\n\nYear: 1995",
+                "string": "1995"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.481155395507812,
+                    41.89512180073503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rome",
+                "description": "\n\nYear: 2005",
+                "string": "2005"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.53085899353027,
+                    44.88178249370369,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Point 9",
+                "description": "\n\nYear: 1990",
+                "string": "1990"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.7276611328125,
+                    49.61248962905264,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gros Morne National Park",
+                "description": "\n\nYear: 1996",
+                "string": "1996"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.736408233642578,
+                    58.85263149392251,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gamlavaerket",
+                "description": "Lucy & Kenny's wedding\n\nYear: 2004",
+                "string": "2004"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3416595458984375,
+                    50.894912951219474,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Atomium, Brussels",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.419333457946777,
+                    43.738700949347866,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Monte Carlo",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5667533874511719,
+                    43.483815720045435,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Biarritz",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7175846099853516,
+                    40.41761298963356,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Madrid",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9005889892578125,
+                    52.37879534725308,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Amsterdam",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.410787582397461,
+                    52.52150894785389,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Berlin",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.180407524108887,
+                    45.469581576867526,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Milan",
+                "description": "Where my mobile phone was stolen\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.338225841522217,
+                    45.43396675365872,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Venice",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.211228609085083,
+                    45.471424927256216,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Camping Village Jolly",
+                "description": "Where I stayed before visiting Venice\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.375965118408203,
+                    48.84393214092012,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Paris",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8505096435546875,
+                    50.95356076374684,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Calais",
+                "description": "\n\nYear: 1999",
+                "string": "1999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9405755996704102,
+                    46.44413376767297,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "La Rochelle",
+                "description": "Eurocamp\n\nYear: ",
+                "string": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.63407301902771,
+                    38.113768600436494,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kefalonia",
+                "description": "\n\nYear: ",
+                "string": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.85233783721924,
+                    39.546511196850666,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Corfu",
+                "description": "\n\nYear: 2002",
+                "string": "2002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.405482769012451,
+                    53.3420072192099,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Prestatyn Sands",
+                "description": "Great holiday exploring the area with the girls\n\nYear: 2012",
+                "string": "2012"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.219637930393219,
+                    52.189808809020484,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Worcester",
+                "description": "Stayed at the travelodge on the way back from Wales\n\nYear: 2012",
+                "string": "2012"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1238884925842285,
+                    50.71741846325071,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Seaview, Isle of Wight",
+                "description": "\n\nYear: 2013",
+                "string": "2013"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9735237956047058,
+                    50.60619883502971,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Swanage Camping",
+                "description": "\n\nYear: ",
+                "string": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.9412808418273926,
+                    50.79084322743889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brookemeadow",
+                "description": "\n\nYear: 2013",
+                "string": "2013"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.927690088748932,
+                    50.73080199128102,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The Coach House",
+                "description": "\n\nYear: 2003",
+                "string": "2003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.9280012249946594,
+                    50.73035378477212,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Point 32",
+                "description": "\n\nYear: ",
+                "string": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.090838074684143,
+                    50.0492477362155,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ridge House",
+                "description": "\n\nYear: ",
+                "string": null
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.22754979133606,
+                    41.78708903099675,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fiuggi",
+                "description": "\n\nYear: 2005",
+                "string": "2005"
+            }
+        }
+    ]
+}
