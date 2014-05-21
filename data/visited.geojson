@@ -592,6 +592,22 @@
                 "description": "\n\nYear: 2005",
                 "string": "2005"
             }
-        }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.33333333333333,
+                    121.9,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "San Jose",
+                "description": "March 2014",
+                "string": "2014"
+            }
+        }        
     ]
 }
