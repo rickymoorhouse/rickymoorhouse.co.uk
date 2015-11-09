@@ -608,6 +608,21 @@
                 "description": "March 2014",
                 "string": "2014"
             }
-        }        
+        },        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.9833,
+                    39.9833,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Columbus",
+                "description": "September 2015",
+                "string": "2015"
+            }
     ]
 }
