@@ -4,8 +4,9 @@
 <meta charset=utf-8 />
 <title>Ricky Moorhouse ~ Places I've visited</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.4/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.4/mapbox-gl.css' rel='stylesheet' />
+
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -15,16 +16,14 @@
 <div id='map'></div>
 
 <script>
-L.mapbox.accessToken = 'pk.eyJ1Ijoicmlja3ltb29yaG91c2UiLCJhIjoiY2lnemh4eGF1MHc0NDRwbTNteW9sN2p0NyJ9.P_XKTG1fyN2jP_R_G1JMdQ';
-var map = L.mapbox.map('map', 'mapbox.run-bike-hike')
-    .setView([38.1089, 13.3545], 3);
-
-var featureLayer = L.mapbox.featureLayer()
-    .loadURL('data/visited.geojson')
-    .addTo(map);
-featureLayer.on('ready', function() {
-    map.fitBounds(featureLayer.getBounds());
+mapboxgl.accessToken = 'pk.eyJ1Ijoicmlja3ltb29yaG91c2UiLCJhIjoiY2lnemh4eGF1MHc0NDRwbTNteW9sN2p0NyJ9.P_XKTG1fyN2jP_R_G1JMdQ';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/rickymoorhouse/cih6ouins00f3bnm500a1d3dl',
+    center: [-53, 20], // starting position
+    zoom: 2 //1.5 // starting zoom
 });
+
 </script>
 </body>
 </html>
