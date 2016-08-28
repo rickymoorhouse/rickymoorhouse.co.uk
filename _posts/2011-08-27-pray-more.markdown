@@ -1,0 +1,18 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2011-08-27 07:43:18+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2011/08/27/pray-more/
+slug: pray-more
+title: Pray more
+wordpress_id: 7306
+categories:
+- Random
+post_format:
+- Quote
+---
+
+<blockquote>If we were to talk less and pray more, things would be better than they are in the world
+
+John Owen, The Holy Spirit: His Gifts and Power [Christian Focus, 2004], 362</blockquote>

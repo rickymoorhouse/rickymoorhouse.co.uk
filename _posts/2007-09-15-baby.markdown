@@ -1,0 +1,17 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2007-09-15 23:00:00+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2007/09/16/baby/
+slug: baby
+title: “Baby”
+wordpress_id: 1479
+categories:
+- Abi
+---
+
+<!--
+
+![](http://samespirit.net/ricky/audio/player/noflash.gif)
+-->[Baby -Abi](http://samespirit.net/ricky/audio/abibaby.mp3) (mp3)

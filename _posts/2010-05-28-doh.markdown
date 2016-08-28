@@ -1,0 +1,20 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2010-05-28 09:47:06+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2010/05/28/doh/
+slug: doh
+title: Doh!
+wordpress_id: 1931
+categories:
+- Jessica
+post_format:
+- Aside
+---
+
+Jessica was reaching for Laura's iPod
+
+"You can't play with the iPod, you're too small"
+
+Jessica: "Doh!"

@@ -1,0 +1,19 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2012-01-05 22:30:19+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2012/01/05/7372/
+slug: '7372'
+title: Psalm 119:37
+wordpress_id: 7372
+categories:
+- Random
+post_format:
+- Quote
+---
+
+<blockquote>Turn my eyes from looking at worthless things; and give me life in your ways.</blockquote>
+
+
+Psalm 119:37

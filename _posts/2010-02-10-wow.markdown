@@ -1,0 +1,16 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2010-02-10 20:33:09+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2010/02/10/wow/
+slug: wow
+title: Wow
+wordpress_id: 1391
+categories:
+- Random
+post_format:
+- Image
+---
+
+![](http://maps.google.com/staticmap?center=-1.019143,-90.874915&zoom=14&size=500x350&maptype=satellite&key=ABQIAAAA9driplT5RAIjF1leKqs8NxSw_oTWdn_T8u1xxKlb3jVOMmO6NBRwUq6AjB7czwZFUuI7hrr1GZqBTg)
