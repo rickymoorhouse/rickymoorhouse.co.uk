@@ -1,3 +1,7 @@
+---
+layout: null
+title: Blog
+---
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -81,9 +85,13 @@ h2 { margin: 0;}
 </section>
 <section id="writing">
 <h2>Writing</h2>
-<p>I write articles for <a href="http://blog.rickymoorhouse.co.uk/">my blog</a> irregularly on a variety of topics.</p>
+<p>I write articles for <a href="/blog/">my blog</a> irregularly on a variety of topics.</p>
 <ul id="writings">
+  {% for post in site.posts limit:10 %}
+  <li class=""><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
+
 <!--<h2>Tweets</h2>
 <ul id="tweets"></ul>-->
 </section>
@@ -110,20 +118,7 @@ h2 { margin: 0;}
 </ul>
 </section>
 <script>
-
 window.scrollTo(0,1);
-
-var script = document.createElement('script');
-script.src = '//rickymoorhouse.co.uk/hub/blog.json';
-script.src = 'https://public-api.wordpress.com/rest/v1/sites/blog.rickymoorhouse.co.uk/posts/?fields=title,URL&number=6&callback=processContent';
-document.body.appendChild(script);
-function processContent(data) {
-	var writings = '';
-	data.posts.forEach(function(item) {
-		writings += '<li class=""><a href="' + item.URL + '">' + item.title + '</a></li>';
-	});
-	document.getElementById('writings').innerHTML = writings;
-}
 </script>
 </body>
 </html>
