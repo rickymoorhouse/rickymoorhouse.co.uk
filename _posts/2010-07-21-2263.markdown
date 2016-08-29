@@ -1,0 +1,17 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2010-07-21 09:56:35+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2010/07/21/2263/
+slug: '2263'
+title: No Content Found
+wordpress_id: 2263
+categories:
+- Asides
+---
+
+<blockquote>Walking on water and developing software from a specification are easy if both are frozen.</blockquote>
+
+
+Edward V Berard

@@ -1,0 +1,17 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2011-06-04 11:00:23+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2011/06/04/eight/
+slug: eight
+title: Eight
+wordpress_id: 7223
+categories:
+- Design
+post_format:
+- Image
+---
+
+[![20110603-224905.jpg](http://rickymoorhouse.files.wordpress.com/2011/06/20110603-224905.jpg)](http://rickymoorhouse.files.wordpress.com/2011/06/20110603-224905.jpg)
+Drawn in pencil, photographed with iPhone - post processed in Camera+ and Iris.

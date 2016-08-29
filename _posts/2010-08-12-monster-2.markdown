@@ -1,0 +1,18 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2010-08-12 18:00:01+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2010/08/12/monster-2/
+slug: monster-2
+title: 'Monster #2'
+wordpress_id: 2292
+categories:
+- Design
+tags:
+- drawing
+---
+
+![](http://rickymoorhouse.files.wordpress.com/2010/08/bird.png?w=300&h=196)
+
+Same as #1 this was sketched in Adobe Ideas and finished in Sumo paint. I will give them names eventually, but for now Abi wants to call this one "princess bird"

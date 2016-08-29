@@ -1,0 +1,21 @@
+---
+author: rickymoorhouse
+comments: true
+date: 2010-07-27 11:40:39+00:00
+layout: post
+link: http://blog.rickymoorhouse.co.uk/2010/07/27/monster-1/
+slug: monster-1
+title: 'Monster #1'
+wordpress_id: 2283
+categories:
+- Design
+tags:
+- drawing
+---
+
+![Monster #1](http://rickymoorhouse.files.wordpress.com/2010/07/monster1.png?w=300&h=300)
+
+
+
+
+This is Monster #1, his outline was drawn in Adobe Ideas on the iPhone, and then the colouring was added using [Sumo Paint](http://www.sumopaint.com)
