@@ -106,7 +106,7 @@
   &:active {
     color: $color-hover;
     text-decoration: none;
-    background-image: linear-gradient($color-hover, $color-hover);
+    border: 1px dotted white;
   }
 
   &:focus {
