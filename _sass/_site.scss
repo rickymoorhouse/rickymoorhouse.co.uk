@@ -2,9 +2,10 @@
   margin-right: auto;
   margin-left: auto;
   padding: 0 $spacer;
+}
+.site-content {
   @include make-container();
 }
-
 // RESPONSIVE SITE
 @include mq-up(sm) {
   .site {
@@ -17,6 +18,7 @@
 .site-header {
   margin: $spacer4 0 $spacer1;
   @include clearfix();
+  @include make-container();
 }
 
 .site-logo {
