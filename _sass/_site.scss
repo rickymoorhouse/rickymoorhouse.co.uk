@@ -4,8 +4,8 @@
 }
 .site-content {
   width: 100%;
-  background: #222233;
-  padding: 0 $spacer;
+  background: $brand-dark;
+  padding: 0 $spacer2;
 }
 article {
   @include make-container();
@@ -84,7 +84,7 @@ article {
 @include mq-up(md) {
   .site-logo {
     margin-left: $spacer0;
-    width: 3.5rem;
+    width: 5rem;
     height: 3.5rem;
   }
 
