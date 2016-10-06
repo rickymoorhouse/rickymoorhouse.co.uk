@@ -1,29 +1,22 @@
 <footer class="site-footer">
 
-  <div class="site-copy">&copy; {{ site.time | date: '%Y' }}<span class="site-author">{{ site.author }}</span></div>
+  <div class="site-copy">&copy; {{ site.time | date: '%Y' }} &nbsp; <span class="site-author">{{ site.author }}</span></div>
 
   <div class="site-links">
-    <div class="site-contact">
-      <ul>
+    <nav class="site-contact">
         {% if site.email %}
-        <li><a href="mailto:{{ site.email }}">Contact</a></li>
+        <a href="mailto:{{ site.email }}">Contact</a>
         {% endif %}
 
         {% if site.github_username %}
-        <li><a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}">Github</a></li>
+        <a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}">Github</a>
         {% endif %}
 
         {% if site.twitter_username %}
-        <li><a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+        <a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
         {% endif %}
-      </ul>
-    </div>
+    </nav>
 
-    <div class="site-source">
-      <ul>
-        <li><a target="_blank" href="https://github.com/{{ site.github_username }}/{{ site.github_source }}">Source</a></li>
-      </ul>
-    </div>
   </div>
 
 </footer>
