@@ -4,6 +4,10 @@
   padding: 0 $spacer;
 }
 .site-content {
+  width: 100%;
+  background: #222233;
+}
+article {
   @include make-container();
 }
 // RESPONSIVE SITE
