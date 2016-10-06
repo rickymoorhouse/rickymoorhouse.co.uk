@@ -7,8 +7,8 @@ $gray-light:                #818a91;
 $gray-lighter:              #eceeef;
 $gray-lightest:             #fafaf8;
 $white:                     #ffffff;
-$green:                      #009977;
-$blue:                      #007799;
+$green:                      #009988;
+$blue:                      #008899;
 $light-green:                lighten($green, 45%);
 $dark-green:                 darken($green, 20%);
 $dark-blue:                 darken($blue, 20%);
@@ -19,6 +19,7 @@ $red:                       #bd4147;
 
 // COLORS - BRAND ------------------
 $brand-color:               $green;
+$brand-dark:                #282222;
 $brand-light-color:         $light-green;
 $brand-secondary:           $dark-green;
 $text-muted:                $light-green;
@@ -49,9 +50,16 @@ $border-radius-sm:          .2rem;
 $border-radius-lg:          .3rem;
 
 // GLOBALS - FONTS ------------------
+<<<<<<< HEAD
 $font-family:               "Lora", sans-serif;
 $font-family-monospace:     Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-heading:              "Lato", serif;
+=======
+$font-family:               alegreya, sans-serif;
+$font-family-monospace:     Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-heading:             alegreya, serif;
+$font-nav:                 Helvetica, sans-serif;
+>>>>>>> 5cd0cf2653400cb52af811ed2d353569b9c10ac0
 
 $lh:                        1.5;
 $lh-sm:                     1.1;
