@@ -1,11 +1,11 @@
 .site {
   margin-right: auto;
   margin-left: auto;
-  padding: 0 $spacer;
 }
 .site-content {
   width: 100%;
   background: #222233;
+  padding: 0 $spacer;
 }
 article {
   @include make-container();
@@ -23,6 +23,7 @@ article {
   margin: $spacer4 0 $spacer1;
   @include clearfix();
   @include make-container();
+  padding: 0 $spacer;
 }
 
 .site-logo {
