@@ -13,7 +13,6 @@ article {
 // RESPONSIVE SITE
 @include mq-up(sm) {
   .site {
-    padding: 0 $spacer2;
   }
 }
 
