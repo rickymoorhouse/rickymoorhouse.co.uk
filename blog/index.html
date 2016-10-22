@@ -13,7 +13,8 @@ title: Blog
   <li class="post">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
       <h4 class="post-title">{{ post.title }}</h4>
-      <time class="post-date" datetime="{{ post.date }}">
+    </a>
+    <time class="post-date" datetime="{{ post.date }}">
       {% assign d = post.date | date: "%-d" %}
       {% assign m = post.date | date: "%B" %}
       {% case m %}
@@ -24,9 +25,8 @@ title: Blog
       {% case d %}
         {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
       {{ post.date | date: "%Y" }}
-      </time>
-      <p class="post-desc">{% if post.desc %}{{ post.desc }}{% else %}{{ post.excerpt }}{% endif %}</p>
-    </a>
+    </time>
+    <p class="post-desc">{% if post.desc %}{{ post.desc }}{% else %}{{ post.excerpt }}{% endif %}</p>
   </li>
   {% endfor %}
 </ul>
