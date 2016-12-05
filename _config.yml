@@ -6,7 +6,7 @@ desc: Random thoughts and ramblings
 
 url: http://rickymoorhouse.co.uk/      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
-permalink: /:year/:title/   # how should we display posts url
+permalink: /:year/:month/:day/:title/   # how should we display posts url
 
 # Meta settings
 email: hi@rickymoorhouse.co.uk
@@ -60,4 +60,3 @@ exclude:
   - vendor
 gems:
   - jekyll-paginate
-
