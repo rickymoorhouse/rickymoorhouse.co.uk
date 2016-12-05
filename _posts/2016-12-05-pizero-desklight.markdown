@@ -23,7 +23,7 @@ routed down the side of the shelf to my PowerCube, which will eventually be
 mounted under my work surface but it's sticky pad wasn't strong enough to hold
 it on the underside of the desk!
 
-# Software
+## Software
 
 As I've not yet added any switch for my light, it all has to be controllable
 remotely, so I set up an API to set the colour of the light which I initially
