@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script" rel="stylesheet">
+<title>Merry Christmas 2016</title>
+
+<style>
+html {
+  background: #efefbb url(watercolour.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+section {
+  margin: 10% auto;
+  width: 50%;
+  text-align: center;
+
+}
+h1,h2 {
+  font: 50pt/60pt 'Dancing Script', cursive;
+  color: #083;
+  text-shadow: 1pt 1pt 4pt rgba(0, 128, 80, 0.7);
+}
+p {
+font: 20pt/24pt 'Courgette', cursive;
+color: rgba(200, 60, 0, 0.8);
+text-shadow: 0 0 5pt rgba(128, 0, 0, 0.7)
+}
+#gingerbread img{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    z-index: 1;
+    width:300px;
+    height:400px;
+    transform-origin: 141px 30px;
+}
+#bell {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 1;
+    width:300px;
+    height:400px;
+    background: transparent url(bell.png) no-repeat center center;
+    transform-origin: 141px 30px;
+}
+
+#bell {
+  animation: rotate 2s infinite ease-in-out alternate;
+}
+
+@keyframes rotate {
+  from {transform:rotate(-16deg);}
+  to { transform:rotate(16deg);}
+}
+
+
+@keyframes snowflakes-fall {
+  0% { top: -10% }
+  100% { top: 100% }
+}
+@keyframes snowflakes-shake {
+  0% { transform: translateX(0px); }
+  50% { transform: translateX(80px); }
+  100% { transform: translatex(0px); }
+}
+.snowflake {
+color: #fff;
+font: 60pt Arial,sans-serif;
+text-shadow: 70pt 50pt 1px rgba(255,255,255,0.8);
+}
+.snowflake {
+position: fixed;
+top: -100pt;
+z-index: 9999;
+user-select: none;
+animation-name: snowflakes-fall, snowflakes-shake;
+animation-duration: 10s, 3s;
+animation-timing-function: linear, ease-in-out;
+animation-iteration-count: infinite, infinite;
+animation-play-state: running, running
+}
+.snowflake:nth-of-type(0) {
+left: 1%;
+animation-delay: 0s, 0s
+animation-duration: 8s, 4s;
+}
+.snowflake:nth-of-type(1) {
+left: 10%;
+animation-duration: 5s, 7s;
+animation-delay: 1s, 1s
+}
+.snowflake:nth-of-type(2) {
+left: 20%;
+animation-duration: 8s, 4s;
+animation-delay: 6s, .5s
+}
+.snowflake:nth-of-type(3) {
+left: 30%;
+animation-duration: 8s, 4s;
+animation-delay: 4s, 2s
+}
+.snowflake:nth-of-type(4) {
+left: 40%;
+animation-duration: 8s, 4s;
+animation-delay: 2s, 2s
+}
+.snowflake:nth-of-type(5) {
+left: 50%;
+animation-duration: 10s, 4s;
+animation-delay: 8s, 3s
+}
+.snowflake:nth-of-type(6) {
+left: 60%;
+animation-duration: 5s, 20s;
+animation-delay: 6s, 2s
+}
+.snowflake:nth-of-type(7) {
+left: 70%;
+animation-duration: 10s, 15s;
+animation-delay: 2.5s, 1s
+}
+.snowflake:nth-of-type(8) {
+left: 80%;
+animation-duration: 8s, 5s;
+animation-delay: 1s, 0s
+}
+.snowflake:nth-of-type(9) {
+left: 90%;
+animation-duration: 13s, 10s;
+animation-delay: 3s, 1.5s
+}
+header img {
+  width: 40pt;
+  height: 40pt;
+  opacity: 0.5;
+  border-radius: 6pt;
+  transition: width 1s,height 1s,opacity 1s;
+}
+header img:hover {
+  width: 45pt;
+  height: 45pt;
+  opacity: 1;
+}
+header { width: 80pt; height: 80pt;}
+</style>
+<header>
+<a href="http://rickymoorhouse.uk/"><img src="../../siteicon.png"></a>
+</header>
+<section id="message">
+  <h1>Merry Christmas
+  <br>and a<br>Happy New Year!</h2>
+  <p>from Ricky</p>
+</section>
+<div id="gingerbread"><img src="gingerbread.png" alt="Gingerbread man" height="50%" width="50%"></div>
+<div id="bell" aria-hidden="true"></div>
+<div class="snowflakes" aria-hidden="true">
+<div class="snowflake">&#10052;</div>
+<div class="snowflake">&#10053;</div>
+<div class="snowflake">&#10054;</div>
+<div class="snowflake">&#10055;</div>
+<div class="snowflake">&#10052;</div>
+<div class="snowflake">&#10053;</div>
+<div class="snowflake">&#10054;</div>
+<div class="snowflake">&#10055;</div>
+<div class="snowflake">&#10052;</div>
+<div class="snowflake">&#10053;</div>
+</div>
