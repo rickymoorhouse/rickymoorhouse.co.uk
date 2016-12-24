@@ -18,6 +18,9 @@ github_source: rickymoorhouse.github.io
 # Put your ga tracking code below
 google_analytics: 'UA-XXXXXXXX-X'
 
+# Mapbox settings
+mapbox_token: 'pk.eyJ1Ijoicmlja3ltb29yaG91c2UiLCJhIjoiY2lnemh4eGF1MHc0NDRwbTNteW9sN2p0NyJ9.P_XKTG1fyN2jP_R_G1JMdQ'
+
 # Pagination settings
 paginate: 5                           # number of posts to show per page
 paginate_path: "/blog/page:num/"  # link scheme for articles, should be letf as is

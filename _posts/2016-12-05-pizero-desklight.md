@@ -10,9 +10,10 @@ categories:
 ---
 
 When we set up our office earlier in the year I decided on a standing desk which
-I put together using the Ikea algot system.  In order to avoid using up desk
-space with a light I originally planned on a clip on light but then saw my
-Pi Zero and Unicorn pHat and thought they could make a good alternative.
+I put together using the [Ikea Algot system](http://www.ikea.com/gb/en/collections/algot/).  
+In order to avoid using up desk space with a light I originally planned on a
+clip on light but then saw my Pi Zero and Unicorn pHat and thought they could
+make a good alternative.
 
 ## Hardware
 

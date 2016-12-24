@@ -12,8 +12,8 @@
                 ]
             },
             "properties": {
-                "name": "Uruguay 533",
-                "description": "This is where we lived during our time in Salto\n\nType: Abroad",
+                "name": "Salto",
+                "description": "This is where we lived during our time in Salto\n\nUruguay 533",
                 "string": "Abroad"
             }
         },
@@ -28,8 +28,8 @@
                 ]
             },
             "properties": {
-                "name": "40 Clive Road",
-                "description": "Shared house I lived in in my first year of University\n\nType: Uni",
+                "name": "Fratton",
+                "description": "Shared house I lived in in my first year of University\n\n40 Clive Road",
                 "string": "Uni"
             }
         },
@@ -188,7 +188,7 @@
                 ]
             },
             "properties": {
-                "name": "Point 9",
+                "name": "Halifax",
                 "description": "\n\nYear: 1990",
                 "string": "1990"
             }
@@ -608,7 +608,7 @@
                 "description": "March 2014",
                 "string": "2014"
             }
-        },        
+        },
         {
             "type": "Feature",
             "geometry": {
@@ -624,5 +624,23 @@
                 "description": "September 2015",
                 "string": "2015"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.6382,
+                    35.7796,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Raleigh",
+                "description": "",
+                "string": ""
+            }
+        }
+
     ]
 }
