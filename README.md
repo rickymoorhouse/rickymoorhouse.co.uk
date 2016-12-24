@@ -11,3 +11,8 @@ Content for my blog at rickymoorhouse.co.uk
 To test changes locally: 
 
     bundle exec jekyll serve --incremental
+
+bundle install
+mkdir _site
+chmod a+w -R  _site
+bundle exec jekyll build
