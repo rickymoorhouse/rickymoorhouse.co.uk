@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/rickymoorhouse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rickymoorhouse.uk
+  * I am rickymoorhouse (https://keybase.io/rickymoorhouse) on keybase.
+  * I have a public key ASByIL9LP-OSN69cQgiUwECLcYQmc5IA2tcIfrytkBpzkgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0111a449798140ed3ee5ab3ff6e95dc9bc9e36e61021fc9a305b522eeb3ad2f1f0960a",
+            "host": "keybase.io",
+            "kid": "01207220bf4b3fe39237af5c420894c0408b718426739200dad7087ebcad901a73920a",
+            "uid": "f3d6edf4834f7907a35449b754247900",
+            "username": "rickymoorhouse"
+        },
+        "service": {
+            "hostname": "rickymoorhouse.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.8"
+    },
+    "ctime": 1460918539,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1460918407,
+        "hash": "54161ff481ea9368d54b3305fc07e255d8659162511bf9e9bae0f91bc1ca901bbeb488e8f6cfd15d568ef769c115d4a8b244478503d75db2df128c1252645f12",
+        "seqno": 444895
+    },
+    "prev": "c565b95934c248a376a95190b87d7234055fa62a676f20f39a0b20dd194aadf1",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgciC/Sz/jkjevXEIIlMBAi3GEJnOSANrXCH68rZAac5IKp3BheWxvYWTFAv97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTExYTQ0OTc5ODE0MGVkM2VlNWFiM2ZmNmU5NWRjOWJjOWUzNmU2MTAyMWZjOWEzMDViNTIyZWViM2FkMmYxZjA5NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzIyMGJmNGIzZmUzOTIzN2FmNWM0MjA4OTRjMDQwOGI3MTg0MjY3MzkyMDBkYWQ3MDg3ZWJjYWQ5MDFhNzM5MjBhIiwidWlkIjoiZjNkNmVkZjQ4MzRmNzkwN2EzNTQ0OWI3NTQyNDc5MDAiLCJ1c2VybmFtZSI6InJpY2t5bW9vcmhvdXNlIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJyaWNreW1vb3Job3VzZS51ayIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjgifSwiY3RpbWUiOjE0NjA5MTg1MzksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MDkxODQwNywiaGFzaCI6IjU0MTYxZmY0ODFlYTkzNjhkNTRiMzMwNWZjMDdlMjU1ZDg2NTkxNjI1MTFiZjllOWJhZTBmOTFiYzFjYTkwMWJiZWI0ODhlOGY2Y2ZkMTVkNTY4ZWY3NjljMTE1ZDRhOGIyNDQ0Nzg1MDNkNzVkYjJkZjEyOGMxMjUyNjQ1ZjEyIiwic2Vxbm8iOjQ0NDg5NX0sInByZXYiOiJjNTY1Yjk1OTM0YzI0OGEzNzZhOTUxOTBiODdkNzIzNDA1NWZhNjJhNjc2ZjIwZjM5YTBiMjBkZDE5NGFhZGYxIiwic2Vxbm8iOjE2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQL3WFq0/W95DYbGTHh8Hw+rsI+hX/HpFYR6Ta30+poH1f3Xqp7UtBcjn54d0INPULdaYzNV7FSfD+EgZAj0G+gqoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rickymoorhouse
+
+==================================================================
