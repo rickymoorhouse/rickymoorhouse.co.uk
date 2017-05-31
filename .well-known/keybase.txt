@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rickymoorhouse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rickymoorhouse.co.uk
+  * I am rickymoorhouse (https://keybase.io/rickymoorhouse) on keybase.
+  * I have a public key with fingerprint E3C0 A8E5 CFFA 2B7D 1497  0E81 F256 093D DD31 BAAF
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e3c0a8e5cffa2b7d14970e81f256093ddd31baaf",
+            "host": "keybase.io",
+            "key_id": "f256093ddd31baaf",
+            "kid": "0111a449798140ed3ee5ab3ff6e95dc9bc9e36e61021fc9a305b522eeb3ad2f1f0960a",
+            "uid": "f3d6edf4834f7907a35449b754247900",
+            "username": "rickymoorhouse"
+        },
+        "revoke": {
+            "sig_ids": [
+                "428115a432b6a0cba0dbfdd65160d8b0e6f84b6e885f0ebc4279060685e73d950f"
+            ]
+        },
+        "service": {
+            "hostname": "rickymoorhouse.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429429416,
+    "expire_in": 157680000,
+    "prev": "09fc780ba00df7cc1acc5431398f6595b5f648db662c177e41f00a67d0a2ed5d",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+owFtkjuLFEEUhdv1Absi7BqZmFRgIMtQ764aMDEQ/4AmKmM9bs00s9s1dvfMOoyL
+GAgmC2ZGor9ADcVgQxPB1EhFM1Mx19urZts0NHX73O+eOlVPz50s1rZ+3ly/8pm9
+e33iww9f3BC3X66Iz3FJhisyhaNPquoxNLOmqjsyJCACdQZUSMlxX0YmbUnBsMSV
+plbEGAXzziWyTSa57TsQ410LgypjDRejKmL1GP306AdljDmJVGuYpBAFgHJepKTB
+qhisDxaEBs0oZylYJ6jyinMAL1zkiSVqNXWIm/+dI6KGmKQRMpWWlk4ohPtSSS5x
+TXthC03tdgHVTRWmy92cm0nGKtnfJg0s8hT6HNpqjNZbMrxFJDeMKScF99rR4B2N
+PsWoFdM0Gk9BJyO9BmNUouCD5DhKU20UlCJaRRO5g2ycu6jCEbzP6lgPg5AH8ym6
+nDW5yyHvoGLSdbN22LvrlrO+ZQ/86B9s5Ks64olhxwKatso1GTJUhq7q6Uxy279M
+bxO4P6saGFW9QpXa7FB8+kGw6M/BplAainujMZUhMBeCkoIJa5JWFkNPWproteaB
+lSVITJ46XUbqOEQVSb+/e3UmwxJ9ujEiMcHadfMGg914cu1UsbVWnDm91l+6YmN9
+8/9NXNXF883lg/z9/fjb5buPvnwavXm4f/j1d/Hi6vmLry49Ozt4fHD4dvnxYHH9
+14XVHw==
+=qm5+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rickymoorhouse
+
+==================================================================
+
