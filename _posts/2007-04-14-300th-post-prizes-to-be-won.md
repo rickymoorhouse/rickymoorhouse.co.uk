@@ -14,7 +14,7 @@ I just noticed that this would be my 300th blog post so I decided to do somethin
 
 
 
-My blog started back on June 2003 with [this](http://samespirit.net/ricky/news/80) insightful post.  Since then I have explored life living in a [foreign land](/ricky/news/Uruguay), have pondered upon new advances in [technological masterpieces](/ricky/news/Firefox) such as Firefox and revealed my thoughts on [life as a daddykins](/ricky/news/Abigail).
+My blog started back on June 2003 with [this](http://rickymoorhouse.uk/2003/06/07/my-new-blog.html) insightful post.  Since then I have explored life living in a [foreign land](/ricky/news/Uruguay), have pondered upon new advances in [technological masterpieces](/ricky/news/Firefox) such as Firefox and revealed my thoughts on [life as a daddykins](/ricky/news/Abigail).
 
 
 

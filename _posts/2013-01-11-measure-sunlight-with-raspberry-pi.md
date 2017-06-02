@@ -12,11 +12,10 @@ categories:
 ---
 
 For Christmas the girls gave me a Raspberry Pi, and for my first project I decided to try recording how bright the sunlight at our window is using an old Webcam.
-[![raspberrypi](http://rickymoorhouse.files.wordpress.com/2013/01/raspberrypi.jpg?w=420&h=262)](http://rickymoorhouse.files.wordpress.com/2013/01/raspberrypi.jpg)
+
+[![raspberrypi](/images/raspberrypi.jpg)](/images/raspberrypi.jpg)
+
 The basic idea is:
-
-
-
 	
   1.  Capture a photo
 

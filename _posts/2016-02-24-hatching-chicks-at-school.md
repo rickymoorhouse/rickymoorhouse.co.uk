@@ -18,4 +18,4 @@ The next day I took the webcam into school and got it set up with the help of Ja
 
 In the early hours of this morning the first egg hatched:
 
-![000DC5D3146E(ChickCam)_1_20130102060517_1089.jpg](https://rickymoorhouse.files.wordpress.com/2016/02/000dc5d3146echickcam_1_20130102060517_1089.jpg)![000DC5D3146E(ChickCam)_1_20130102061008_1098.jpg](https://rickymoorhouse.files.wordpress.com/2016/02/000dc5d3146echickcam_1_20130102061008_1098.jpg)![000DC5D3146E(ChickCam)_1_20130102063542_1124.jpg](https://rickymoorhouse.files.wordpress.com/2016/02/000dc5d3146echickcam_1_20130102063542_1124.jpg)![webcam-3.jpg](https://rickymoorhouse.files.wordpress.com/2016/02/webcam-3.jpg)
+![000DC5D3146E(ChickCam)_1_20130102060517_1089.jpg](/images/000dc5d3146echickcam_1_20130102060517_1089.jpg)![000DC5D3146E(ChickCam)_1_20130102061008_1098.jpg](/images/000dc5d3146echickcam_1_20130102061008_1098.jpg)![000DC5D3146E(ChickCam)_1_20130102063542_1124.jpg](/images/000dc5d3146echickcam_1_20130102063542_1124.jpg)![webcam-3.jpg](/images/webcam-3.jpg)

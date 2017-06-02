@@ -107,6 +107,7 @@ width: 60%;
 text-align: right;}
 
 ol.pager {
+padding-bottom: 1em;
 list-style: none;
 }
 li.pager-next {

@@ -13,6 +13,6 @@ tags:
 - school jessica
 ---
 
-![](http://rickymoorhouse.files.wordpress.com/2013/09/wpid-52343636793c51-25739622.jpg)
+![](images/wpid-52343636793c51-25739622.jpg)
 
 Jessica on her first day at school
