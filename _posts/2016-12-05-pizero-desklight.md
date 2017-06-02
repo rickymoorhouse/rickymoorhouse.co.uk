@@ -34,6 +34,6 @@ controlled via a web browser with urls like:
 
 As you can imagine that got a bit tedious - especially to turn off after I'd
 shut down my laptop!  The next step was to add a simpler way to control the
-light through my phone so I set up [iControl Web](https://github.com/sebbu/iControl-Web) with buttons to adjust the light settings.  Then when I saw the Home app on iOS 10, I researched ways to get my custom light controllable through that and came across [Homebridge](https://github.com/nfarina/homebridge) which I could point to my API via it's [Better HTTP RGB plugin](homebridge-better-http-rgb), a bit of config and a couple of changes to my API.
+light through my phone so I set up [iControl Web](https://github.com/sebbu/iControl-Web) with buttons to adjust the light settings.  Then when I saw the Home app on iOS 10, I researched ways to get my custom light controllable through that and came across [Homebridge](https://github.com/nfarina/homebridge) which I could point to my API via it's [Better HTTP RGB plugin](https://www.npmjs.com/package/homebridge-better-http-rgb), a bit of config and a couple of changes to my API.
 
 All the [code for my API](https://github.com/rickymoorhouse/light-api) is on github and is very much a work in progress!
