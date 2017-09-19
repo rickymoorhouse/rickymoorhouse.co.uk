@@ -18,6 +18,7 @@ github_source: rickymoorhouse.github.io
 # Put your ga tracking code below
 google_analytics: 'UA-XXXXXXXX-X'
 
+mapbox_id: 'outdoors-v10'
 # Mapbox settings
 mapbox_token: 'pk.eyJ1Ijoicmlja3ltb29yaG91c2UiLCJhIjoiY2lnemh4eGF1MHc0NDRwbTNteW9sN2p0NyJ9.P_XKTG1fyN2jP_R_G1JMdQ'
 
@@ -47,6 +48,11 @@ defaults:
       type: posts
     values:
       layout: post
+
+collections:
+  travel: 
+    output: true
+
 
 # Markdown parser settings
 markdown: kramdown
