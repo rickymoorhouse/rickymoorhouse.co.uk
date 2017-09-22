@@ -138,3 +138,9 @@ top: 0;
 margin: 0 0 -2em 0;
 padding: 0;
 }
+#locationMap {
+float: right;
+margin: 0 1rem;
+border-radius: 99em;
+max-width: 50%;
+}

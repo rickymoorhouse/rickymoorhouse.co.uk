@@ -18,10 +18,17 @@ layout: default
     {{ page.date | date: "%Y" }}
     </time>
   </header>
-
+  {% if page.location %}
+  <img id="locationMap" src="https://api.mapbox.com/styles/v1/mapbox/{{ site.mapbox_id }}/static/{{ page.location.lng }},{{ page.location.lat }},12/300x300?access_token={{ site.mapbox_token }}" />
+  {% endif %}
   <div class="post-content pretty-links">
     {{ content }}
   </div>
+  {% if page.photo != '/travel/image.jpg' %}
+  <figure class="photo">
+    <img src="{{ page.photo }}" alt="{{ page.title }}" />
+  </figure>
+  {% endif %}
 
 
 </article>

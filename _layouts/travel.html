@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="container">
-
-  <figure class="photo">
-    <img src="{{ page.image.original }}" alt="{{ page.title }}" />
-    <figcaption>This photo was taken {% if page.exif.dateTaken %}on {{ page.exif.dateTaken | date: "%-d %B %Y" }}{% endif %} {% if page.exif.location.name %}in {{ page.exif.location.name }}{% endif %}</figcaption>
-  </figure>
-<img src="https://api.mapbox.com/styles/v1/mapbox/{{ site.mapbox_id }}/static/{{ page.location.lng }},{{ page.location.lat }},12/300x300?access_token={{ site.mapbox_token }}" />
   {{ content }}
+  {% if page.photo != '/travel/image.jpg' %}
+    <figure class="photo">
+        <img src="{{ page.photo }}" alt="{{ page.title }}" />
+    </figure>
+  {% endif %}
+<img id="locationMap" src="https://api.mapbox.com/styles/v1/mapbox/{{ site.mapbox_id }}/static/{{ page.location.lng }},{{ page.location.lat }},12/300x300?access_token={{ site.mapbox_token }}" />
 </div>

@@ -10,9 +10,7 @@
         "image": "{{ place.image }}",
         "url": "{{place.url}}",
         "year": "{{ place.date | date: "%Y" }}",
-        "marker-size": "medium",{% if place.tags contains 'recommended' %}
-        "recommended": true,{% endif %}
-        "marker-symbol":{% if place.tags contains 'Mapbox' %}"rocket"{% elsif place.tags contains 'yay' %}"star"{% elsif place.tags contains 'hiking' or place.tags contains 'fresh air' %}"park"{% elsif place.tags contains 'friends' or place.tags contains 'family' %} "heart"{% elsif place.tags contains 'music' %} "music"{% elsif place.tags contains 'road trip' %} "car"{% elsif place.tags contains 'college' %} "library"{% else %}""{% endif %},
+        "marker-size": "small",
         "marker-color": "#9b59b6"
       },
       "geometry": { 
@@ -20,23 +18,5 @@
         "coordinates": [{{ place.location.lng }},{{ place.location.lat }}]
       }
     }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
-      {% for place in site.data.other-places %}
-      {
-        "type": "Feature",
-        "properties": {
-          "title": "{{ place.title }}",
-          "external": true,
-          "image": "{{ place.image }}",
-          "year": "{{ place.date | date: "%Y" }}",
-          "url": "{{place.url}}",
-          "marker-size": "medium",
-          "marker-symbol": "{{place.marker}}",
-          "marker-color": "#9b59b6"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [{{ place.location.lat }},{{ place.location.lng }}]
-        }
-      }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
   ]
 }

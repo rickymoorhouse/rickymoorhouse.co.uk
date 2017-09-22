@@ -46,6 +46,14 @@ var map = L.mapbox.map('map', 'mapbox.streets', {
 var featureLayer = L.mapbox.featureLayer()
     .loadURL('{{ page.geojson }}') //'/travel/map.geojson')
     .addTo(map);
+
+featureLayer.on('layeradd', function(e) {
+    var marker = e.layer,
+    feature = marker.feature;
+    var content = '<a href="'+feature.properties.url+'">' + feature.properties.title + "</a>";
+    marker.bindPopup(content);
+});
+
 </script>
 <!--      {% include footer.html %}-->
     </div>
