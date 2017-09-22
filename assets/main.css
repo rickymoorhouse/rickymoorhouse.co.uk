@@ -11,7 +11,7 @@ color: #208;
 }
 header.site-header {
 background: #098;
-text-align: center;
+/*text-align: center;*/
 font-family: sans-serif;
 padding: 0;
 box-shadow: 1px 0px 2px rgba(0,0,0,.8);
@@ -40,12 +40,18 @@ font-weight: bold;
 img.site-logo {
 height: 4rem;
 }
-/* Mini header */
+/* Mini header 
 .fullscreen img.site-logo { height: 2rem;}
 .fullscreen nav {display: inline-block;}
 .fullscreen nav a {padding: 0 0 0 1rem;}
 .fullscreen header h1 { display: inline-block;}
 .fullscreen header { vertical-align: middle; text-align: left;}
+ becomes normal header ... */
+img.site-logo { height: 2rem;}
+nav {display: inline-block;}
+nav a {padding: 0 0 0 1rem;}
+header h1 { display: inline-block;}
+header { vertical-align: middle; text-align: left;}
 
 
 a.post-link {
