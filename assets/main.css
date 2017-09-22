@@ -109,10 +109,11 @@ float: left;
 width: 30%;
 text-align: left;
 color: #777;}
-div.site-links {
+footer div.site-links {
 float: right;
 width: 60%;
-text-align: right;}
+text-align: right;
+margin: 0 2rem 0 0;}
 
 ol.pager {
 padding-bottom: 1em;
@@ -128,6 +129,7 @@ text-align: left;
 }
 ol.pager li {
 width: 40%;
+margin-top: -1em;
 }
 div.site {
 width: 100%;

@@ -11,7 +11,7 @@
         "url": "{{place.url}}",
         "year": "{{ place.date | date: "%Y" }}",
         "marker-size": "small",
-        "marker-color": "#9b59b6"
+        "marker-color": "#9900cc"
       },
       "geometry": { 
         "type": "Point",
