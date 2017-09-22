@@ -2,7 +2,7 @@
 title: "Columbus"
 layout: travel
 datePosted: 2015
-photo: "/travel/photo/columbus.jpg"
+photo: "/travel/photos/columbus.jpg"
 location:
   lat: 39.983300
   lng: -82.983300
