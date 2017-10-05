@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script" rel="stylesheet">
+<style>
+html {
+  background: #efefbb url(christmas-border.png) repeat-x top right;
+  height: 100%;
+  width: 100%;
+}
+section {
+  margin: 10% auto;
+  width: 50%;
+  text-align: center;
+
+}
+h1,h2 {
+  font: 50pt/60pt 'Dancing Script', cursive;
+  color: #293;
+  text-shadow: 1pt 1pt 4pt rgba(0,0,0,0.5);
+}
+p {
+font-family: 'Courgette', cursive;
+}
+
+#gingerbread {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 1;
+    width:300px;
+    height:400px;
+    background: transparent url(bell.png) no-repeat center center;
+    transform-origin: 141px 30px;
+}
+
+#gingerbread {
+  -webkit-animation: rotate 2s infinite ease-in-out alternate;
+  -moz-animation-name: rotate 2s infinite ease-in-out alternate;
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(-16deg);}
+  to {  -webkit-transform:rotate(16deg);}
+}
+
+@-moz-keyframes rotate {
+  from {-moz-transform:rotate(-16deg);}
+  to {  -moz-transform:rotate(16deg);}
+}
+</style>
+<section id="message">
+  <h1>Merry Christmas</h1>
+  <h2>and a<br>Happy New Year!</h2>
+  <p>from Ricky</p>
+</section>
+<div id="gingerbread"></div>

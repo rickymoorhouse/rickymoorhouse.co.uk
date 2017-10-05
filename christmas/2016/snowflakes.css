@@ -1,0 +1,74 @@
+/**********************************************
+ Based on the CSS3 snow demo created
+ by Estelle Weyl (@estellevw) available at:
+ http://www.standardista.com/sxsw/
+***********************************************/
+
+/* make sure horizontal scrollbars don't pop up because snowflakes stray over the edge */
+body {
+	overflow-x: hidden;
+}
+
+
+/* animation used for ALL snowflakes, 1000px will be updated by Snowflakes.create() to reflect true height of window */
+@-webkit-keyframes falling {
+	0% {
+		-webkit-transform: translate3d(0,0,0) rotate(0deg);
+	}
+	100% {
+		-webkit-transform: translate3d(0,1000px,0) rotate(360deg);
+	}
+}
+
+@-moz-keyframes falling {
+	0% {
+		-moz-transform: translate3d(0,0,0) rotate(0deg);
+	}
+	100% {
+		-moz-transform: translate(0,1000px) rotate(360deg);
+	}
+}
+
+/* different sizes, and default origins based on size */
+.snowflakeSizeLRG {
+	font-size:11pt;
+	-webkit-transform-origin: left -30px;
+	-moz-transform-origin: left -30px;
+}
+.snowflakeSizeMED {
+  font-size: 20pt;
+	-webkit-transform-origin: left -30px;
+	-moz-transform-origin: left -30px;
+}
+.snowflakeSizeSM {
+  font-size: 30pt;
+	-webkit-transform-origin: -30px 0;
+	-moz-transform-origin: -30px 0;
+}
+
+
+/* different delays so they don't all start at the same time */
+.snowflakeDelay1 {
+	-webkit-animation-delay: 3.4s;
+	-moz-animation-delay: 3.4s;
+}
+.snowflakeDelay2 {
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+}
+.snowflakeDelay3 {
+	-webkit-animation-delay: 4.6s;
+	-moz-animation-delay: 4.6s;
+}
+.snowflakeDelay4 {
+	-webkit-animation-delay: 6.3s;
+	-moz-animation-delay: 6.3s;
+}
+.snowflakeDelay5 {
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+}
+.snowflakeDelay6 {
+	-webkit-animation-delay: 8.1s;
+	-moz-animation-delay: 8.1s;
+}
