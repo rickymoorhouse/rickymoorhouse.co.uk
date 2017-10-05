@@ -1,5 +1,5 @@
 ---
-title: "Ridge House"
+title: "St Keverne"
 layout: travel
 datePosted: None
 photo: "/travel/image.jpg"

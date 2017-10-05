@@ -6,6 +6,21 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "{% if place.location.title %}{{ place.location.title }}{% else %}{{ place.title }}{% endif %}",
+        "image": "{{ place.image }}",
+        "url": "{{place.url}}",
+        "year": "{{ place.date | date: "%Y" }}",
+        "marker-size": "small",
+        "marker-color": "#9900cc"
+      },
+      "geometry": { 
+        "type": "Point",
+        "coordinates": [{{ place.location.lng }},{{ place.location.lat }}]
+      }
+    },{% endfor %}{% for place in site.posts %}{% if place.location %}
+    {
+      "type": "Feature",
+      "properties": {
         "title": "{{ place.title }}",
         "image": "{{ place.image }}",
         "url": "{{place.url}}",
@@ -17,6 +32,6 @@
         "type": "Point",
         "coordinates": [{{ place.location.lng }},{{ place.location.lat }}]
       }
-    }{% if forloop.rindex > 1 %},{% endif%}{% endfor %}
+    }{% endif %}{% endfor %}
   ]
 }

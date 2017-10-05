@@ -1,5 +1,5 @@
 ---
-title: "Point 32"
+title: "Sticklepath"
 layout: travel
 datePosted: None
 photo: "/travel/image.jpg"

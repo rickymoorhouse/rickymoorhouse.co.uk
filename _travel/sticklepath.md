@@ -1,5 +1,5 @@
 ---
-title: "The Coach House"
+title: "Sticklepath"
 layout: travel
 datePosted: 2003
 photo: "/travel/image.jpg"

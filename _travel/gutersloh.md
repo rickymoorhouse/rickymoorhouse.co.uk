@@ -1,5 +1,5 @@
 ---
-title: "School German Exchange"
+title: "Gutersloh"
 layout: travel
 datePosted: 1995
 photo: "/travel/image.jpg"

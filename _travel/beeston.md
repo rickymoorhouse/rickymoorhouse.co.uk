@@ -1,5 +1,5 @@
 ---
-title: "Wollaton Road"
+title: "Beeston"
 layout: travel
 datePosted: Home
 photo: "/travel/image.jpg"
@@ -7,8 +7,7 @@ location:
   lat: 52.933534
   lng: -1.222916
 ---
-# Wollaton Road
+# Beeston, Nottingham
 
 Lived here until going to Uni
 
-Type: Home
