@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<title>Merry Christmas 2017</title>
+<style>
+html {
+  color: #fff;
+  background: #000033; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+section {
+  margin: 0% auto;
+  text-align: center;
+
+}
+.dark {
+font-size: 40pt;
+}
+  
+
+@keyframes snowflakes-fall {
+  0% { top: -10% }
+  100% { top: 100% }
+}
+@keyframes snowflakes-shake {
+  0% { transform: translateX(0px); }
+  50% { transform: translateX(80px); }
+  100% { transform: translatex(0px); }
+}
+.snowflake {
+color: rgba(255,255,255,0.8);
+font: 50pt Arial,sans-serif;
+text-shadow: 70pt 50pt 1px rgba(255,255,255,0.4);
+}
+.snowflake {
+position: fixed;
+top: -100pt;
+z-index: 9999;
+user-select: none;
+animation-name: snowflakes-fall, snowflakes-shake;
+animation-duration: 10s, 3s;
+animation-timing-function: linear, ease-in-out;
+animation-iteration-count: infinite, infinite;
+animation-play-state: running, running
+}
+.snowflake:nth-of-type(0) {
+left: 1%;
+animation-delay: 0s, 0s
+animation-duration: 8s, 4s;
+}
+.snowflake:nth-of-type(1) {
+left: 10%;
+animation-duration: 5s, 7s;
+animation-delay: 1s, 1s
+}
+.snowflake:nth-of-type(2) {
+left: 20%;
+animation-duration: 8s, 4s;
+animation-delay: 6s, .5s
+}
+.snowflake:nth-of-type(3) {
+left: 30%;
+animation-duration: 8s, 4s;
+animation-delay: 4s, 2s
+}
+.snowflake:nth-of-type(4) {
+left: 40%;
+animation-duration: 8s, 4s;
+animation-delay: 2s, 2s
+}
+.snowflake:nth-of-type(5) {
+left: 50%;
+animation-duration: 10s, 4s;
+animation-delay: 8s, 3s
+}
+.snowflake:nth-of-type(6) {
+left: 60%;
+animation-duration: 5s, 20s;
+animation-delay: 6s, 2s
+}
+.snowflake:nth-of-type(7) {
+left: 70%;
+animation-duration: 10s, 15s;
+animation-delay: 2.5s, 1s
+}
+.snowflake:nth-of-type(8) {
+left: 80%;
+animation-duration: 8s, 5s;
+animation-delay: 1s, 0s
+}
+.snowflake:nth-of-type(9) {
+left: 90%;
+animation-duration: 13s, 10s;
+animation-delay: 3s, 1.5s
+}
+header img {
+  width: 40pt;
+  height: 40pt;
+  opacity: 0.5;
+  border-radius: 6pt;
+  transition: width 1s,height 1s,opacity 1s;
+}
+header img:hover {
+  width: 45pt;
+  height: 45pt;
+  opacity: 1;
+}
+header { width: 80pt; height: 80pt;}
+
+@supports (mix-blend-mode: lighten) {
+  section.dark .gradient1 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background: #000;
+    mix-blend-mode: lighten;
+  }
+  section.dark .gradient1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #ffffff, #77eeff, #ffffff, #ff77ee, #ffffff);
+    pointer-events: none;
+  }
+  section.dark .gradient1::before {
+    mix-blend-mode: multiply;
+  }
+}
+section.dark .gradient2 {
+  color: #fff;
+}
+@supports (mix-blend-mode: lighten) {
+  section.dark .gradient2 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background: #000;
+    mix-blend-mode: lighten;
+  }
+  section.dark .gradient2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+    pointer-events: none;
+  }
+  section.dark .gradient2::before {
+    mix-blend-mode: multiply;
+  }
+}
+
+/* Page styling, ignore */
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+section {
+  min-height: 50vh;
+  padding: 2em;
+}
+
+.gradient1 {
+  font-size: 96px;
+  margin: 0.5em;
+  opacity: 0.9;
+}
+
+.gradient2 {
+  text-align: center;
+  margin: 1em auto;
+  width: 10em;
+}
+
+section.dark {
+  background: #003;
+}
+section.dark .gradient1 {
+  color: #fff;
+}
+@supports (mix-blend-mode: lighten) {
+  section.dark .gradient1 {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    background: #000;
+    mix-blend-mode: lighten;
+  }
+  section.dark .gradient1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #ffffff, #77eeff, #ffffff, #ff77ee, #ffffff);
+    pointer-events: none;
+  }
+  section.dark .gradient1::before {
+    mix-blend-mode: multiply;
+  }
+}
+
+/* Page styling, ignore */
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+section {
+  min-height: 50vh;
+  padding: 2em;
+}
+
+.gradient1 {
+  font-size: 96px;
+  margin: 0.5em;
+  opacity: 0.9;
+}
+
+.gradient2 {
+  text-align: center;
+  margin: 1em auto;
+  width: 10em;
+}
+
+
+</style>
+<header>
+<a href="http://rickymoorhouse.uk/"><img alt="rm" src="../../siteicon.png"></a>
+</header>
+<section class="dark">
+<p class="gradient1">
+MERRY CHRISTMAS<br />
+AND A<br />HAPPY NEW YEAR
+<br />from Ricky
+</p></section>
+<div class="snowflakes" aria-hidden="true">
+<div class="snowflake">&#10052;</div>
+<div class="snowflake">&#10053;</div>
+<div class="snowflake">&#10054;</div>
+<div class="snowflake">&#10055;</div>
+<div class="snowflake">&#10052;</div>
+<div class="snowflake">&#10053;</div>
+<div class="snowflake">&#10054;</div>
+<div class="snowflake">&#10055;</div>
+<div class="snowflake">&#10052;</div>
+<div class="snowflake">&#10053;</div>
+</div>
