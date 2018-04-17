@@ -146,3 +146,7 @@ margin: 0 1rem;
 border-radius: 99em;
 max-width: 50%;
 }
+
+.post-content img {
+max-width: 100%;
+}
