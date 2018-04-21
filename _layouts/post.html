@@ -24,10 +24,12 @@ layout: default
   <div class="post-content pretty-links">
     {{ content }}
   </div>
+  {% if page.photo %} 
   {% if page.photo != '/travel/image.jpg' %}
   <figure class="photo">
     <img src="{{ page.photo }}" alt="{{ page.title }}" />
   </figure>
+  {% endif %}
   {% endif %}
 
 
